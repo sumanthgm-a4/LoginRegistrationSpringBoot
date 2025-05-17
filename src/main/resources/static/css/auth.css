@@ -1,0 +1,163 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+h3 a:hover {
+    color: #1d6fa5;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table thead {
+    background-color: #2c3e50;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+.form-container {
+    max-width: 380px;
+    margin: 60px auto;
+    padding: 30px;
+    padding-right: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #34495e;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 370px;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-container button {
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #2980b9;
+}
+
+.switch-form {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.switch-form a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.oauth-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.oauth-btn {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.oauth-btn i {
+    margin-right: 8px;
+}
+
+.oauth-btn.google {
+    background-color: #db4437;
+}
+
+.oauth-btn.google:hover {
+    background-color: #c33d2f;
+}
+
+.oauth-btn.github {
+    background-color: #24292e;
+}
+
+.oauth-btn.github:hover {
+    background-color: #1b1f23;
+}
